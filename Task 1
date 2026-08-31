@@ -1,1 +1,47 @@
-bumbaclat wallahi 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TalonPlayzYT Profile Picture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        img {
+            border-radius: 50%;
+            max-width: 250px;
+            height: auto;
+            border: 4px solid #ff0000;
+        }
+        a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TalonPlayzYT Profile Picture</h1>
+        <!-- Replace the src value below with the actual profile picture URL or local file name -->
+        <img src="PROFILE_PICTURE_URL_OR_FILE_HERE" alt="TalonPlayzYT Profile Picture">
+        <p>
+            Channel: 
+            <a href="https://www.youtube.com/@TalonPlayzYT" target="_blank">
+                @TalonPlayzYT on YouTube
+            </a>
+        </p>
+    </div>
+</body>
+</html>
