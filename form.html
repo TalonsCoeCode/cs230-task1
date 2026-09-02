@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Talon's Questionnaire</title>
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        form {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Talon's Questionnaire</h1>
+
+    <!-- 1. Text inputs -->
+    <h2>Name and Username</h2>
+    <form>
+        <!-- First name -->
+        <div class="section">
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname">
+        </div>
+
+        <!-- Discord username -->
+        <div class="section">
+            <label for="discord">Discord Username:</label><br>
+            <input type="text" id="discord">
+        </div>
+
+        <!-- YouTube username -->
+        <div class="section">
+            <label for="ytname">YouTube Username:</label><br>
+            <input type="text" id="ytname">
+        </div>
+    </form>
+
+
+    <h2>Favorite Video On The Channel (1–611)</h2>
+    <form>
+        <label for="num">Choose a number:</label><br>
+        <input type="number" id="num" min="1" max="611">
+    </form>
+
+
+    <h2>Most Watched Video Type</h2>
+    <form>
+        <div class="section">
+            <label>Most Watched Video Type:</label><br>
+
+            <input type="radio" id="livestream" name="videotype" value="LiveStream">
+            <label for="livestream">LiveStream</label><br>
+
+            <input type="radio" id="video" name="videotype" value="Video">
+            <label for="video">Video</label><br>
+
+            <input type="radio" id="shorts" name="videotype" value="Shorts">
+            <label for="shorts">Shorts</label>
+        </div>
+
+        <div class="section">
+            <label>Favorite Game To Watch:</label><br>
+
+            <input type="radio" id="lol" name="game" value="League Of Legends">
+            <label for="lol">League Of Legends</label><br>
+
+            <input type="radio" id="rl" name="game" value="Rocket League">
+            <label for="rl">Rocket League</label><br>
+
+            <input type="radio" id="fc" name="game" value="FC">
+            <label for="fc">FC</label>
+        </div>
+    </form>
+
+
+    <h2>What Games Do You Want To See More Of?</h2>
+    <form>
+        <div class="section">
+            <label>Game Types:</label><br>
+
+            <input type="checkbox" id="racing">
+            <label for="racing">Racing</label><br>
+
+            <input type="checkbox" id="sports">
+            <label for="sports">Sports</label><br>
+
+            <input type="checkbox" id="fps">
+            <label for="fps">FPS</label><br>
+
+            <input type="checkbox" id="rpg">
+            <label for="rpg">RPG</label>
+        </div>
+
+        <div class="section">
+            <label for="specificgame">Specific Game:</label><br>
+            <textarea id="specificgame" rows="5" cols="40"></textarea>
+        </div>
+    </form>
+
+
+    <h2>Clip Submitter</h2>
+    <form>
+        <label for="file">Choose a file:</label><br>
+        <input type="file" id="file">
+    </form>
+
+    <a href="index.html">Return to Profile Picture Page</a>
+    <a href="about.html">Return to the About Me Page</a>
+</body>
+</html>
